@@ -1,0 +1,38 @@
+export const themes = {
+  midnight: {
+    label: "Midnight",
+    page: "bg-black",
+    nav: "bg-gray-900 shadow-black/60",
+    title: "text-white",
+    slot: "border-gray-700",
+    button: "bg-indigo-600 hover:bg-indigo-500 text-white",
+    swatch: "bg-indigo-600",
+  },
+  light: {
+    label: "Light",
+    page: "bg-gray-100",
+    nav: "bg-white shadow-gray-400/50",
+    title: "text-gray-900",
+    slot: "border-gray-400",
+    button: "bg-gray-900 hover:bg-gray-700 text-white",
+    swatch: "bg-gray-300",
+  },
+  forest: {
+    label: "Forest",
+    page: "bg-emerald-950",
+    nav: "bg-emerald-900 shadow-black/50",
+    title: "text-emerald-50",
+    slot: "border-emerald-700",
+    button: "bg-emerald-600 hover:bg-emerald-500 text-white",
+    swatch: "bg-emerald-600",
+  },
+  sunset: {
+    label: "Sunset",
+    page: "bg-rose-950",
+    nav: "bg-rose-900 shadow-black/50",
+    title: "text-rose-50",
+    slot: "border-rose-700",
+    button: "bg-orange-500 hover:bg-orange-400 text-white",
+    swatch: "bg-orange-500",
+  },
+};
